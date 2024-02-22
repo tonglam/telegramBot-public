@@ -1,0 +1,19 @@
+spring:
+  data:
+    redis:
+      host: ENC()
+      port:
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: -1
+      password: ENC()
+      timeout: 60000ms
+jasypt:
+  encryptor:
+    password:
+server:
+  port:
+  address:
